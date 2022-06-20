@@ -8,9 +8,13 @@
     font-family: 'Inter', sans-serif!important;
 }
 
+.tab-img{
+    width: 550px;
+    height: 370px;
+}
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 400;
 }
@@ -21,7 +25,7 @@
 }
 .hero-section{
     background-color:  #091423;
-    height: 777px;
+    height: 770px;
 }
 .navbar-brand img{
     width: 40%;
@@ -31,7 +35,7 @@
     background: #EF4D4D;
     font-size: 20px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 12px 25px;
     border-radius: 5px;
     border: none;
@@ -45,15 +49,13 @@
 }
 .hero-content h1{
     font-family: 'Inter', sans-serif!important;
-    font-size: 65px;
-
-    line-height: 80px;
-
+    font-size: 55px;
+    line-height: 75px;
     font-weight: 700;
 }
 .hero-content p{
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 28px;
 }
 .hero-content a{
     font-size: 20px;
@@ -66,48 +68,50 @@
 }
 .hero-img{
     position: absolute;
-    left: 54%;
-    top: 23%;
+    left: 56%;
+    top: 37%;
 }
 .hero-content ul{
     display: flex;
     font-size: 32px;
     line-height: 35px;
-    margin: 0;
-    padding: 0;
-
 }
 .hero-content ul li{
     list-style: none;
 }
 /*Feature part*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #EF4D4D;;
+}
+
 .feature h1{
     color: #091423;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 45px;
+    line-height: 55px;
     font-weight: 700;
 }
 .feature p{
-    color: #2D415A;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 25px;
 }
 .menu-style{
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 22px;
     color:  #091423;
     font-weight: 700;
 }
 .menu-style:hover{
     background-color: #EF4D4D;
     color: #fff!important;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 20px rgba(84, 116, 164, 0.1);
     transition: 0.6s all ease;
 }
 .li-active{
     background-color: #EF4D4D!important;
     color: #fff!important;
-    border-radius: 10px!important;
+    border-radius: 12px!important;
+    box-shadow: 6px 6px 20px rgba(84, 116, 164, 0.1);
 }
 .feature-content{
     background: #FFFFFF;
@@ -138,13 +142,8 @@
     color:  #1A5AAD;
     font-size: 25px;
 }
-.feature-part{
-    background: #FFFFFF;
-    box-shadow: 16px 16px 36px rgba(12, 30, 53, 0.05);
-    border-radius: 16px;
-}
 .feature-part h2{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 600;
 }
@@ -153,8 +152,8 @@
     color:  #1A5AAD;
 }
 .feature-part ul li{
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 11px;
+    line-height: 15px;
     font-weight: 500;
     color: #283F5E;
 }
@@ -173,30 +172,16 @@
     font-weight: 700;
     color: #283F5E;
 }
-.img-overlay{
-    position: absolute;
-    top: 46%;
-    left: 17%;
-    color: #fff;
-    width: 15%;
+/*Project Part*/
+.project-content h1{
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 700;
 }
-.img-overlay img{
-    position: absolute;
-    right: 10%;
-    top: 50%;
+.project-content p{
+    font-size: 14px;
+    line-height: 25px;
 }
-.img-overlay h1{
-    font-size: 24px;
-    line-height: 29px;
-    font-weight: 600;
-}
-.img-overlay h5{
-    font-size: 16px;
-    line-height: 19px;
-}
-.img-overlay p{
-    font-size: 12px;
-    line-height: 16px;
-}
+
 
 
